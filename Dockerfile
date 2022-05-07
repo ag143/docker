@@ -1,7 +1,9 @@
-FROM gliderlabs/alpine:3.4
+FROM ubuntu:18.04
 
-RUN apk-install python
-ADD . /app
-WORKDIR /app
-CMD python -m SimpleHTTPServer 5000
-EXPOSE 5000
+RUN apt-get update && \
+    apt-get install -y redis-server && \
+    apt-get clean
+
+EXPOSE 6379
+
+CMD ["redis-server", "--protected-mode no"]
