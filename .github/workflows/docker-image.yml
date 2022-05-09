@@ -1,12 +1,14 @@
-name: Docker Image CI
+name: Frontend Chat CI/CD
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - master
   pull_request:
-    branches: [ main ]
+    branches:
+      - master
 
-jobs:
+  jobs:
     ci:
       runs-on: ubuntu-latest
       container:
