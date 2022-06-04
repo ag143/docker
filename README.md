@@ -3,6 +3,25 @@
 ## Setup
 https://docs.docker.com/desktop/windows/install/
 
+## dockerfile
+A Dockerfile is simply a text-based script of instructions that is used to create a container image
+
+Refer the repository 
+https://github.com/ag143/docker-getting-started/tree/master/app
+
+### sample docker file
+https://github.com/ag143/docker-getting-started/blob/master/app/dockerfile
+
+> docker build -t getting-started .
+
+# Start an app container
+docker run -dp 3000:3000 getting-started
+
+After a few seconds, open your web browser to http://localhost:3000. You should see our app
+
+
+
+
 
 ## References
 
