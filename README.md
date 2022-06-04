@@ -1,5 +1,11 @@
 # docker 
 
+## Setup
+https://docs.docker.com/desktop/windows/install/
+
+
+## References
+
 - https://github.com/marketplace/actions/build-and-push-docker-images
 - https://linuxhit.com/how-to-create-docker-images-with-github-actions/
 - https://stackoverflow.com/questions/68500021/build-image-and-push-to-docker-hub-using-github-action
