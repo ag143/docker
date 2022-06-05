@@ -22,6 +22,9 @@ docker run -dp 3000:3000 getting-started
 After a few seconds, open your web browser to http://localhost:3000. You should see our app
 
 # how to write dockerfile
+RUN --> to execute at the time of build image
+CMD --> to execute with in the container
+
 https://docs.docker.com/engine/reference/builder/#usage
 
 https://docs.docker.com/language/java/build-images/
