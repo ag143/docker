@@ -25,7 +25,7 @@ After a few seconds, open your web browser to http://localhost:3000. You should 
 https://docs.docker.com/engine/reference/builder/#usage
 
 > Instructions
-
+<pre>
 ADD
 COPY
 ENV
@@ -130,7 +130,7 @@ CMD ["-c"]
 
 
 
-
+ </pre>
 
 
 
